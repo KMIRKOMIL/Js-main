@@ -15,9 +15,9 @@
 // // (j == 0 || i == 0 || j == 7 - 1 || i == 7 - 1)     (i == j + son - 1 || j == i + son - 1 )
 
 let total = ""
-let answer = +prompt(`Shaxmat sonini kiriting`)
+let answer = +prompt(`Kvadrat sonini kiriting`)
 while (isNaN(answer) || answer == 0) {
-    answer = +prompt(`Son kiriting`)
+    answer = +prompt(`Son deb yozilganku-E!!!`)
 }
 if (answer % 2 == 0) {
     answer += 1
